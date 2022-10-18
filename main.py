@@ -6,5 +6,9 @@ delval = int(input('Enter the deletion value: '))
 # ******************************
 # Make your Code
 # ******************************
+count = numbers.count(delval)
+for i in range(count):
+    numbers.remove(delval)
 
+   
 print (numbers)

@@ -10,7 +10,7 @@ count = numbers.count(delval)
 for i in range(count):
     numbers.remove(delval)
 
-else:
+if count == 0:
      numbers.clear()
    
 print (numbers)
